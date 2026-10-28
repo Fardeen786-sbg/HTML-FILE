@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week4</title>
+</head>
+<body>
+    <!-- Navigation links -->
+    <nav>
+        <a href = "#events">Events</a>
+        <a href = "#register">Register</a>
+    </nav>
+    <!-- Main Heading-->
+    <h1>Coding Club</h1>
+    <!-- Events section-->
+    <h2>Upcoming Events</h2>
+    <table border = "1">
+        <caption>Club Events</caption>
+        <tr>
+            <th>Events</th>
+            <th>Date</th>
+            <th>Venue</th>
+        </tr>
+
+        <tr>
+            <td>HTML Workshop</td>
+            <td>12 Nov</td>
+            <td>lab 1</td>
+        </tr>
+
+        <tr>
+            <td>Hackathon</td>
+            <td>20 Nov</td>
+            <td>seminar hall</td>
+        </tr>
+
+        <tr>
+            <td colspan ="3">Total events: 2</td>
+        </tr>
+    </table>
+    <h2>Register</h2>
+    <!-- Name-->
+    <Label for ="name">Name:</Label>
+    <input type = "text" id ="name"Name placeholder ="Your name" required>
+    <br>
+    <!-- email-->
+     <br>
+     <label for ="email">Email:</label>
+     <input type = "email"></input>
+    <!-- password-->
+     <br>
+     <br>
+     <label for ="password">Password:</label>
+     <input type ="password" id ="password" name="Password">
+     <!-- Date of birth -->
+      <br>
+      <br>
+      <label for = "dob">Date of birth:</label>
+      <input type ="Date" id ="dob"Name  placeholder ="mm/dd/yyyy " required >
+      <!-- phone -->
+       <br>
+       <br>
+       <label for = "phone">Phone:</label>
+       <input type = "phone"></input>
+       <!-- Gender -->
+        <br><br>
+        Gender:
+        <input type ="radio" id ="male" name="gender" value ="Male">
+        <label for ="male">Male</label>
+
+        <input type ="radio" id ="female" name ="gender" value ="Female">
+        <label for ="female">Feamle</label>
+
+        <!-- Interest-->
+         <br><br>
+         Interest:
+         <input type ="checkbox" id ="web" name ="interest" value ="Web">
+         <label for ="web">Web</label>
+
+         <input type ="checkbox" id ="dsa" name ="interest" value ="DSA">
+         <label for ="dsa">DSA</label>
+         <br><br>
+
+         <!-- Branch Dropdown-->
+          <label for ="branch">Branch:</label>
+          <select id ="branch" name ="branch">
+
+            <option value ="bca">BCA</option>
+            <Option value ="b.tech">B.tech</Option>
+            <option value ="bba">BBA</option>
+            <option value ="mca">MCA</option>
+          </select>
+          <br><br>
+
+          <!-- reason for joining -->
+           <label for ="reason">Why to you want to join?</label>
+           <br>
+           <textarea id = "reason" name="reason"rows="4" cols="38"></textarea>
+           <br><br>
+
+           <!-- Register button -->
+            <button type ="submit">Submit</button>
+        </form>
+
+
+</body>
+</html>
